@@ -1,73 +1,156 @@
-# Welcome to your Lovable project
+# 🧠 NewsSense — AI-Powered News Intelligence & Bias Detection
 
-## Project info
++ NewsSense is a modern AI-driven news intelligence platform that summarizes articles,
++ detects bias, and evaluates credibility using Google Gemini AI.
 
-**URL**: https://lovable.dev/projects/4b1d3d7c-06a9-4b2f-9bc3-112c35d44e1c
+---
 
-## How can I edit this code?
+## 🚀 Overview
 
-There are several ways of editing your application.
++ NewsSense helps users:
++ - Summarize news articles instantly
++ - Detect political/media bias
++ - Analyze credibility of sources
++ - Get personalized news insights
 
-**Use Lovable**
+- Built as a full-stack intelligence system with AI + modern web tech.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4b1d3d7c-06a9-4b2f-9bc3-112c35d44e1c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Key Features
 
-**Use your preferred IDE**
++ 🧠 AI Summarization using Google Gemini
++ 🧾 Bias Detection & Sentiment Evaluation
++ 🔐 JWT-secured authentication system
++ 🌍 Real-time news from GNews & NewsAPI
++ 📊 Credibility scoring for articles
++ 💬 Clean, ChatGPT-style news insights UI
++ 🎯 Personalized news experience
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
++ Frontend:
++ - Vite ⚡
++ - React ⚛️
++ - TypeScript 🟦
++ - Tailwind CSS 🎨
++ - shadcn-ui 💎
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
++ Backend:
++ - Node.js
++ - Express.js
++ - JWT Authentication 🔐
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
++ AI & Data:
++ - Google Gemini AI 🤖
++ - GNews API 🌐
++ - NewsAPI 📰
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📂 Project Architecture
 
-**Edit a file directly in GitHub**
++ Frontend (Vite + React + Tailwind)
++        ↓
++ Backend API (Node.js + Express + JWT)
++        ↓
++ AI Layer (Gemini API Processing)
++        ↓
++ News Aggregation (GNews / NewsAPI)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## ⚙️ Installation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
++ 1. Clone the repository
+  git clone https://github.com/your-username/newsense.git
 
-## What technologies are used for this project?
++ 2. Install frontend dependencies
+  cd client
+  npm install
 
-This project is built with:
++ 3. Install backend dependencies
+  cd server
+  npm install
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
++ 4. Setup environment variables
+  - GEMINI_API_KEY
+  - NEWS_API_KEY
+  - JWT_SECRET
 
-## How can I deploy this project?
++ 5. Run project
+  Frontend:
+    npm run dev
 
-Simply open [Lovable](https://lovable.dev/projects/4b1d3d7c-06a9-4b2f-9bc3-112c35d44e1c) and click on Share -> Publish.
+  Backend:
+    npm start
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🔐 Authentication
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
++ Secure JWT-based authentication system:
++ - User signup/login
++ - Protected routes
++ - Session validation
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 🧠 AI Capabilities
+
++ NewsSense uses Gemini AI to:
++ - Summarize long articles into concise insights
++ - Detect bias (left / right / neutral)
++ - Evaluate credibility score of sources
++ - Generate simplified explanations
+
+---
+
+## 📊 Core Modules
+
++ 📄 News Summarization Engine
++ 🎯 Bias Detection System
++ 🔍 Credibility Analyzer
++ 💬 AI News Chat Interface
++ 👤 User Authentication Module
+
+---
+
+## 🎨 UI/UX
+
++ Modern, minimal, and responsive design
++ Built with:
++ - Tailwind CSS for styling
++ - shadcn-ui components
++ - Clean dashboard-style layout
+
+---
+
+## 🔮 Future Improvements
+
++ 🔔 Real-time news alerts
++ 📱 Mobile app version
++ 🌍 Multi-language support
++ 📈 Advanced analytics dashboard
++ 🧠 Improved bias classification model
+
+---
+
+## 🤝 Contributing
+
++ Fork the repository
++ Create a feature branch
++ Commit changes
++ Submit a pull request 🚀
+
+---
+
+## 📜 License
+
++ MIT License
+
+---
+
++ Made with ⚡ using AI, MERN & Modern Web Technologies
